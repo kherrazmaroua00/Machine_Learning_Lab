@@ -64,7 +64,7 @@ def show_regression(X, y, theta):
 X , y = get_training_data("Ir2_data.txt")
 
 theta = init_theta(X.shape[1])
-alpha = 0.01
+alpha = 0.0001
 
 theta, J_history = gradient_descent(X, y, theta, alpha)
 
